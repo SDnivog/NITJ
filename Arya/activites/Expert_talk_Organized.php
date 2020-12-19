@@ -15,7 +15,7 @@
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
 	 <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 
@@ -23,7 +23,7 @@
 	<div class="row">
 		<div class="col-md-12 py-3 bg-light">
 			<div class="card">
-				<div class="card-header"></div>
+				<div class="card-header">Expert Talk Organized</div>
 				<div class="card-body">
 					<table class="table table-bordered">
                       <thead>

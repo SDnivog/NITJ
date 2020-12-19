@@ -15,7 +15,7 @@
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
 	 <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 
@@ -30,18 +30,26 @@
                         <tr>
                           <th scope="col">#</th>
                           <th scope="col">Topic</th>
-                          <th scope="col">From</th>
-                          <th scope="col">To</th>
-          
+                          <th scope="col">Duration</th>
+                          <th scope="col">Role</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <th scope="row">1</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-   
+                          <td>Current and Future Scope of Surface Coatings</td>
+                          <td>December 2 to 6, 2020.</td>
+                          <td>Co-ordinator</td>
+                        </tr>
+                        <th scope="row">2</th>
+                          <td>Computational Methods and Analysis for Engineers”, </td>
+                          <td>November 18 to 22, 2020</td>
+                          <td>Co-ordinator</td>
+                        </tr>
+                        <th scope="row">3</th>
+                          <td>Current Industrial Practices in Chemical Engineering</td>
+                          <td>October 7 to 11, 2020. </td>
+                          <td>Co-ordinator</td>
                         </tr>
                          </tbody>
                     </table>

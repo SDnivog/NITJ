@@ -15,11 +15,11 @@
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
 	 <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 
-<div class="container">
+<div class="container py-3">
 	<div class="row">
 		<div class="col-md-12 py-3 bg-light">
 			<div class="card">
@@ -29,20 +29,38 @@
                       <thead>
                         <tr>
                           <th scope="col">#</th>
-                          <th scope="col">Expert Name</th>
                           <th scope="col">Topic</th>
-                          <th scope="col">Year</th>
+                          <th scope="col">Venue</th>
+                          <th scope="col">Date&Year</th>
                    
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
+                         <tr>
                           <th scope="row">1</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                      
+                          <td>Sequencing of Distillation Column</td>
+                          <td>Department of Chemical Engineering, Sir Chhotu Ram Institute of Engineering and Technology, Meerut, C.C.S University Campus, Uttar Pradesh</td>
+                          <td>30 November 2019</td>
                         </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Solution of PDEs Using Galerkin’s Finite Element Methods</td>
+                          <td>Department of Chemical Engineering, Shaheed Bhagat Singh State Technical Campus, Ferozepur from 1st to 6th July 2019.</td>
+                          <td>5th July 2019</td>
+                        </tr>
+                         <tr>
+                          <th scope="row">3</th>
+                          <td>Current And Future Scope of Research</td>
+                          <td>Department of Chemical Engineering, July 23 – 27, HBTU Kanpur, U.P., India.</td>
+                          <td>July 23 – 27, 2018</td>
+                        </tr>
+                         <tr>
+                          <th scope="row">4</th>
+                          <td>Residual solvent study in polymer− polymer—solvent coatings: poly (styrene)—poly (ethylene glycol)—chlorobenzene coatings</td>
+                          <td>HBTU, Kanpur, U.P., India.</td>
+                          <td>March 17 – 18,2018</td>
+                        </tr>
+                        
                          </tbody>
                     </table>
 				</div>

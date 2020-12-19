@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Students</title>
+	<title>Dr Raj Kumar Arya</title>
 	  <!-- <link rel = "icon" href ="http://trando.in/img/logo icon.png"> -->
 	  <meta name="viewport" content="width=device-width,inital-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -15,7 +15,7 @@
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
 	 <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 
@@ -98,8 +98,66 @@
                             <hr>
                  
 
+<div class="row">
+<div class="col-md-12" style="width: 100%; overflow: auto;">
+<h4><strong>Personal Web Links</strong></h4>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="col">YouTube</th>
+      <td><a href="https://www.youtube.com/channel/UCbbCr7YE-vDAtpn3sivdsoQ/">https://www.youtube.com/channel/UCbbCr7YE-vDAtpn3sivdsoQ/</a></td>
+    </tr>
+    <tr>
+      <th scope="col">Google Scholar Profile</th>
+      <td><a href="https://scholar.google.co.in/citations?hl=en&user=Dc3-hxwAAAAJ">https://scholar.google.co.in/citations?hl=en&user=Dc3-hxwAAAAJ</a></td>
+    </tr>
+    <tr>
+      <th scope="col">Scopus Profile</th>
+      <td><a href="https://www.scopus.com/authid/detail.uri?authorId=56023616700">https://www.scopus.com/authid/detail.uri?authorId=56023616700</a></td>
+    </tr>
+    <tr>
+      <th scope="col">Researcher ID</th>
+      <td><a href="https://publons.com/researcher/1192635/raj-kumar-arya/">https://publons.com/researcher/1192635/raj-kumar-arya/</a></td>
+    </tr>
+    <tr>
+      <th scope="col">Vidwan ID</th>
+      <td><a href="https://vidwan.inflibnet.ac.in//profile/90213">https://vidwan.inflibnet.ac.in//profile/90213</a></td>
+    </tr>
+    <tr>
+      <th scope="col">Personal Homepage</th>
+      <td><a href="https://www.nitj.ac.in/index.php/nitj_cinfo/Faculty/180">https://www.nitj.ac.in/index.php/nitj_cinfo/Faculty/180</a></td>
+    </tr>
+    <tr>
+      <th scope="col">Linkedin</th>
+      <td><a href="https://www.linkedin.com/in/raj-kumar-arya-b78ab193/">https://www.linkedin.com/in/raj-kumar-arya-b78ab193/</a></td>
+    </tr>
+    <tr>
+      <th scope="col">Facebook</th>
+      <td><a href="https://www.facebook.com/rajaryache">https://www.facebook.com/rajaryache</a></td>
+    </tr>
+    <tr>
+      <th scope="col">Instagram</th>
+      <td><a href="https://www.instagram.com/rajaryache/?hl=en">https://www.instagram.com/rajaryache/?hl=en</a></td>
+    </tr>
+<!--     <tr>
+      <th scope="col">Otto</th>
+      <td><a href=""></a></td>
+    </tr> -->
+  </tbody>
+</table>
 
 
+    </div>
+</div>
+
+
+<!-- 
               <div class="gallery-content">
                 <h2 class="welcome-text" style="font-weight: bold; margin-top:8px; margin-left:15px;">Other Profile Links</h2>
 
@@ -130,7 +188,7 @@
 
                              </div>
                            </div>
-                            </div>
+                            </div> -->
 
 
 		</div>

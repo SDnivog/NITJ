@@ -8,8 +8,10 @@ include('database/session.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dr Raj Kumar Arya</title>
-	  <!-- <link rel = "icon" href ="http://trando.in/img/logo icon.png"> -->
+	<title>Dr Raj Kumar Arya, Associate Professor</title>
+  <meta name="keywords" content="Dr Raj Kumar Arya Associate Professor" />
+    <meta name="description" content="Associate Professor Dr. B. R. Ambedkar National Institute of Technology, Jalandhar, Department of Chemical Engineering Jalandhar (Punjab)- 144011" />
+	  <link rel="shortcut icon" href="images/favicon.ico" />
 	  <meta name="viewport" content="width=device-width,inital-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
@@ -29,7 +31,7 @@ include('database/session.php');
     color: #fff;
     background-color: #104071!important;
     border-radius: 0px;
-  }
+  } 
 </style>
 </head>
 <body style="background-color: #ddd;">
@@ -72,7 +74,7 @@ include('database/session.php');
       </p> 
      </marquee>	
 
-<div class="bg-light py-2" style="font-family: 'Rubik', serif; ">
+<div class="bg-light py-2 mb-2" style="font-family: 'Rubik', serif; ">
 <ul class="nav nav-pills mb-1 ml-2" id="pills-tab" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Upcomming Events</a>
@@ -85,7 +87,11 @@ include('database/session.php');
   </li> -->
 </ul><hr style="height: 2px;background-color: #104071!important; margin-top: -4px;">
 <div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" style="max-height: 200px;overflow: auto;">
+    <div class="card" style="border: none;">
+      <div class="card-body">
+        
+      
     <ul class="nav-item">
 
 
@@ -110,8 +116,12 @@ include('database/session.php');
       <li class=""><a href="pdf_files/<?php echo $File; ?>" style="text-decoration: none;"><?php echo $Title; ?> <img src="images/new.gif"></a></li>
     <?php } ?>
     </ul>
+    </div>
+    </div>
   </div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" style="max-height: 200px;overflow: scroll;">
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" style="max-height: 200px;overflow: auto;">
+    <div class="card" style="border: none;">
+      <div class="card-body">
     <ul class="nav-item">
           <?php 
               
@@ -133,6 +143,8 @@ include('database/session.php');
       <li class=""><a href="pdf_files/<?php echo $File; ?>" style="text-decoration: none;"><?php echo $Title; ?><img src="images/new.gif"></a></li>
     <?php } ?>
     </ul>
+    </div>
+    </div>
   </div>
   <!-- <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div> -->
 </div>
@@ -140,8 +152,8 @@ include('database/session.php');
 </div>
      
 		</div>
-		<div class="col-md-4 bg-light" style="min-height: 200px;">
-			<div class="card mt-1">
+		<div class="col-md-4 " style="min-height: 200px;">
+			<div class="card mt-1 mb-2">
 				<div class="card-header" style="background-color: #104071!important; color: #fff;">NEWS</div>
 				<div class="card-body" id="reheight">
 				<marquee width="100%" direction="up" scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()" style="min-height: 250px;">
@@ -167,11 +179,12 @@ include('database/session.php');
                 </marquee>
 				</div>
 			</div>
-      <div class="card">
-        <div class="card-header" style="background-color: #104071!important; color: #fff;">Recent Project</div>
+      <div class="card mb-2">
+        <div class="card-header" style="background-color: #104071!important; color: #fff;">Students testimonial</div>
         <div class="card-body" style="max-height: 250px;">
           <?php include('project.php'); ?>
         </div>
+        <div class="card-footer"><p><a href="">View more details...</a></p></div>
       </div>
 		</div>
 	</div> <!-- row -->

@@ -5,10 +5,10 @@ include('../database/session.php');
 ?>
 
 <?php 
-//if (!isset($_SESSION["AId"])) {
-  //Redirect_to("../");
+if (!isset($_SESSION["AId"])) {
+  Redirect_to("../");
 
-//}
+}
 
  ?>
 

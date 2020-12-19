@@ -15,7 +15,7 @@
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
 	 <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 
@@ -29,23 +29,27 @@
                       <thead>
                         <tr>
                           <th scope="col">#</th>
-                          <th scope="col"></th>
-                          <th scope="col"></th>
-                          <th scope="col"></th>
-                          <th scope="col"></th>
-                          <th scope="col"></th>
-                          <th scope="col"></th>
+                          <th scope="col">Topic</th>
+                          <th scope="col">Date&Year</th>
+                          <th scope="col">Role</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <th scope="row">1</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
+                          <td scope="row">1</td>
+                          <td>Career as Business and Data Analytics</td>
+                          <td>16th August 2020.</td>
+                          <td>Co-ordinator</td>
+                        </tr>
+                          <td scope="row">2</td>
+                          <td>Right career path, guidance for right course selection</td>
+                          <td>7th August 2020</td>
+                          <td>Co-ordinator</td>
+                        </tr>  
+                          <td scope="row">3</td>
+                          <td>Training, Placement, and Career guidance to face the challenging world</td>
+                          <td>12th July 2020</td>
+                          <td>Co-ordinator</td>
                         </tr>
                          </tbody>
                     </table>

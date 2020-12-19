@@ -29,7 +29,7 @@ if ($Result==1) {
 
 
 // Function for User Login from prabhat admin Main
-function Login_AttamptP($User,$Pass){
+function Login_AttamptA($User,$Pass){
 
             global $ConnectingDB;
             $sql = "SELECT * FROM   admin_login WHERE username=:UserName AND password =:Password LIMIT 1";

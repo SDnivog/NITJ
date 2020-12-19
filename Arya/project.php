@@ -2,9 +2,6 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="https://www.nitj.ac.in/images/research_highlights/GAP.png" class="d-block w-100" style="max-height: 200px;" alt="...">
-     <!--  <div class="carousel-caption  d-none d-md-block" style="background-color: #104071!important; opacity: 0.8;">
-        Image Captions
-      </div> -->
     </div>
     <div class="carousel-item">
       <img src="https://www.nitj.ac.in/images/research_highlights/GA.JPG" class="d-block w-100" style="max-height: 200px;" alt="...">
@@ -22,3 +19,4 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+

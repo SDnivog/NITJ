@@ -22,7 +22,7 @@ include('../database/session.php');
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
   <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Course tought</title>
+	<title>Teaching experience</title>
 	  <!-- <link rel = "icon" href ="http://trando.in/img/logo icon.png"> -->
 	  <meta name="viewport" content="width=device-width,inital-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -15,7 +15,7 @@
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
 	 <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 
@@ -23,22 +23,52 @@
 	<div class="row">
 		<div class="col-md-12 py-3 bg-light">
 			<div class="card">
-				<div class="card-header">Courses Tought</div>
+				<div class="card-header">Teaching experience</div>
 				<div class="card-body">
 					<table class="table table-bordered">
                       <thead>
                         <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">Course Name</th>
-                          <th scope="col">Year</th>
+                          <th scope="col">Position Held</th>
+                          <th scope="col">Organization</th>
+                          <th scope="col">Duration</th>
       
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <th scope="row">1</th>
-                          <td></td>
-                          <td></td>
+                          <th>Associate Professor</th>
+                          <td>Dr. B. R. Ambedkar National Institute of Technology, Jalandhar, Punjab, India</td>
+                          <td>04-09-2018 to till date</td>
+  
+                        </tr>
+                        <tr>
+                          <th>Associate Professor</th>
+                          <td>Thapar University, Patiala, Punjab</td>
+                          <td>13-03-2018 to 31-08-2018 Five Months Twenty Nine Days</td>
+  
+                        </tr>
+                        <tr>
+                          <th>Assistant Professor</th>
+                          <td>Thapar University, Patiala, Punjab</td>
+                          <td>26-06-2014 to 12-03-2018 Three Years Eight Months Eighteen Days</td>
+  
+                        </tr>
+                        <tr>
+                          <th>Assistant Professor</th>
+                          <td>Jaypee University of Engineering &amp; Technology, Guna, M.P.</td>
+                          <td>01-09-2010 to 14 -06-2014 Three Years Nine Months Fourteen Days</td>
+  
+                        </tr>
+                        <tr>
+                          <th>Senior Lecturer</th>
+                          <td>Jaypee University of Engineering &amp; Technology, Guna, M.P.</td>
+                          <td>19-05-2010 to 31-08-2010 Three Months Thirteen Days</td>
+  
+                        </tr>
+                        <tr>
+                          <th>Lecturer</th>
+                          <td>Birla Institute of Technology and Science Pilani – Goa Campus</td>
+                          <td>07-09-2009 to 15-05-2010, Eight Months Nine Days</td>
   
                         </tr>
                          </tbody>

@@ -15,7 +15,7 @@
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
 	 <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 
@@ -29,23 +29,54 @@
                       <thead>
                         <tr>
                           <th scope="col">#</th>
-                          <th scope="col">Type</th>
                           <th scope="col">Title</th>
+                          <th scope="col">Expert</th>
                           <th scope="col">Venue</th>
-                          <th scope="">From</th>
-                          <th scope="col">To</th>
+                          <th scope="">Date&Time</th>
                           <th scope="col">Designation</th>
                         </tr>
                       </thead>
                       <tbody>
+                      
                         <tr>
                           <th scope="row">1</th>
-                          <td>National</td>
-                          <td>A Webinar on "Heavy Crude Oil Production Technologies- Practical Approach", 8 August 2020, 11:30 hours by Mr. Hemant Kumar Sonkar , Chief Engineer (Production), Asia Pacific BU, ONGC Videsh Ltd., New Delhi.</td>
+                          <td>Hydroprocessing Technologies in Petroleum Refinery</td>
+                          <td>Mr. Ravi Kumar, Ex. Manager, IOCL, Faridabad. </td>
+                         <td>Department of Chemical Engineering, Dr. B.R. Ambedkar National Institute of Technology, Jalandhar, Punjab - 144011, India</td>
+                          <td>19 September 2020, 11:00 AM </td>
+                          <td>Co-ordinator</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Process Scale Up - Aspects and Importance</td>
+                          <td>Mr. Rahul Chaudhari , Senior Manager (Process),  Aarti Industries Ltd, Gujarat. </td>
                           <td>Department of Chemical Engineering, Dr. B.R. Ambedkar National Institute of Technology, Jalandhar, Punjab - 144011, India</td>
-                          <td>08-08-2020</td>
-                          <td>08-08-2020</td>
-                          <td>Coordinator</td>
+                          <td>12 September 2020, 11:30 AM </td>
+                          <td>Co-ordinator</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>IT not only Enabler, But Critical Element of Engineering and Business Operation</td>
+                          <td>Mr. Praveen Verma, Global Program Director, Energy and Utilities, Birlasoft India Ltd. </td>
+                          <td>Department of Chemical Engineering, Dr. B.R. Ambedkar National Institute of Technology, Jalandhar, Punjab - 144011, India</td>
+                          <td>05 September 2020, 11:30 AM</td>
+                          <td>Co-ordinator</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Why a Manuscript is Rejected</td>
+                          <td>Prof. Sakamon Devahastin, Editor Drying Technology - An International Journal</td>
+                          <td>Department of Chemical Engineering, Dr. B.R. Ambedkar National Institute of Technology, Jalandhar, Punjab - 144011, India</td>
+                          <td>27 August 2020, 13:30 hours </td>
+                          <td>Co-ordinator</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>Heavy Crude Oil Production Technologies- Practical Approach. </td>
+                          <td>Mr. Hemant Kumar Sonkar , Chief Engineer (Production), Asia Pacific BU, ONGC Videsh Ltd., New Delhi.</td>
+                          <td>Department of Chemical Engineering, Dr. B.R. Ambedkar National Institute of Technology, Jalandhar, Punjab - 144011, India</td>
+                          <td>8 August 2020, 11:30 hours</td>
+                          <td>Co-ordinator</td>
                         </tr>
                          </tbody>
                     </table>

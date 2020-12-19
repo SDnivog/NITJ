@@ -7,7 +7,7 @@ include('../database/session.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Students</title>
+	<title>My Students</title>
 	  <!-- <link rel = "icon" href ="http://trando.in/img/logo icon.png"> -->
 	  <meta name="viewport" content="width=device-width,inital-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -22,7 +22,7 @@ include('../database/session.php');
     }
 </style>
 </head>
-<body style="background-color: #ddd;">
+<body style="background-color: #fff;">
   <?php include('../header.php'); ?>
 	<?php include('../navbar.php'); ?>
 
@@ -30,7 +30,7 @@ include('../database/session.php');
 <div class="row">
 	<div class="col-md-12 mt-4">
 		<div class="card">
-			<div class="card-header">Department Of Chemical Engineering Students</div>
+			<div class="card-header">My Students</div>
 			<div class="card-body">
 				<table class="table table-bordered">
   <thead>

@@ -105,7 +105,7 @@ if (isset($_POST['Register'])) {
     }
 </style>
 </head>
-<body style="background-color:#ccc;">
+<body style="background-color:#fff;">
 	 <?php include('header.php'); ?>
 	<?php include('navbar.php'); ?>
 
@@ -169,7 +169,7 @@ if (isset($_POST['Register'])) {
            		<div class="form-group">
                <label for="yearr">Year of registration : </label>
                <select name="yearr" class="form-control" id="yearr">
-                  <?php foreach(range(date('Y',time()),2017) as $r) echo '<option>'.$r.'</option>'; ?> 
+                  <?php foreach(range(date('Y',time()),2010) as $r) echo '<option>'.$r.'</option>'; ?> 
                </select>
               </div>
            	</div>
@@ -177,11 +177,7 @@ if (isset($_POST['Register'])) {
            		<div class="form-group">
                <label for="yearg">Year of graduation : </label>
                <select name="yearg" id="yearg" class="form-control">
-                  <option>2020</option>
-                  <option>2021</option>
-                  <option>2022</option>
-                  <option>2023</option>
-                  <option>2024</option>
+                <?php foreach(range(date('Y',time()),2010) as $r) echo '<option>'.$r.'</option>'; ?> 
                </select>
               </div>
            	</div>

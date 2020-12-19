@@ -4,6 +4,13 @@ include('../database/function.php');
 include('../database/session.php');
 ?>
 
+<?php 
+if (!isset($_SESSION["AId"])) {
+  Redirect_to("../");
+
+}
+
+ ?>
 
 <!DOCTYPE html>
 <html>
@@ -60,6 +67,11 @@ include('../database/session.php');
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
+  <?php 
+                  echo ErrorMessage();
+                  echo SuccessMessage(); 
+
+             ?>
 
     <!-- Main content -->
     <section class="content">
@@ -115,6 +127,67 @@ include('../database/session.php');
           </div>
           <!-- ./col -->
           <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>65</h3>
+
+                <p>Administrative Responsibilites</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <a href="admin_respon" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+
+           <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>65</h3>
+
+                <p>Expert Talk Delivered</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <a href="expert_talk_delivered" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+           <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>65</h3>
+
+                <p>Expert Talk Organized</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <a href="expert_talk_organized" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+           <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+              <div class="inner">
+                <h3>65</h3>
+
+                <p>Informations</p>
+              </div>
+              <div class="icon">
+                <i class="ion fas fa-info"></i>
+              </div>
+              <a href="view-info.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+           <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
